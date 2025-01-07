@@ -1,0 +1,57 @@
+# Home folders
+.cache/
+Computer/
+Desktop/
+Documents/
+Downloads/
+git/
+.gnupg/
+.local/
+.lyrics/
+.mozilla/
+Music/
+.nv/
+Pictures/
+Public/
+School/
+.ssh/
+Templates/
+.var/
+Videos/
+Work/
+
+# Home files
+.bash_history
+.bash_logout
+.lesshst
+Passafe.kdbx
+.profile
+.sudo_as_admin_successful
+.zshrc
+
+# .config folders
+.config/cosmic/
+.config/dconf/
+.config/fish/
+.config/gtk-3.0/
+.config/ibus/
+.config/keepassxc/
+.config/pop-system-updater/
+.config/pulse/
+.config/qalculate/
+
+# .config files
+.config/mimeapps.list
+.config/QtProject.conf
+.config/user-dirs.dirs
+.config/user-dirs.locale
+
+# Folder names to ignore
+*/playlists/
+
+# File names and types
+*database
+*log
+*state
+*.sql
+*.log
