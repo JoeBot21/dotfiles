@@ -809,22 +809,25 @@
   <Record Key="DockContainer">
     <DockRoot Name="Left">
       <Collapsed>True</Collapsed>
-      <Size>275</Size>
-      <DockPanel />
+      <Size>40</Size>
+      <DockPanel>
+        <Active>Flags</Active>
+        <DockTab Name="Flags" />
+      </DockPanel>
     </DockRoot>
     <DockRoot Name="Right">
       <Collapsed>True</Collapsed>
       <Size>357</Size>
       <DockPanel>
-        <Active>Tool Chest</Active>
+        <Active>Bookmarks</Active>
         <DockTab Name="File Manager" />
+        <DockTab Name="Studio" />
         <DockTab Name="Search" />
         <DockTab Name="Bookmarks" />
         <DockTab Name="Properties" />
-        <DockTab Name="Studio" />
+        <DockTab Name="Measurements" />
         <DockTab Name="Thumbnails" />
         <DockTab Name="Tool Chest" />
-        <DockTab Name="Measurements" />
       </DockPanel>
     </DockRoot>
     <DockRoot Name="Bottom">
@@ -1935,16 +1938,17 @@
       <Location>Right</Location>
       <Items>
         <Item>Tab.File Manager</Item>
+        <Item>Tab.Studio</Item>
         <Item>Tab.Search</Item>
         <Item>Tab.Bookmarks</Item>
         <Item>Tab.Properties</Item>
-        <Item>Tab.Studio</Item>
+        <Item>Tab.Measurements</Item>
         <Item>Tab.Markups</Item>
         <Item />
         <Item EscapedKey="True">DS4zVyYkEJdS8MOdUWW/jA==</Item>
         <Item>âÊvãß( !CØ gJ</Item>
         <Item>Toggle.Reuse</Item>
-        <Item>Measure.Calibrate</Item>
+        <Item Visible="False">Measure.Calibrate</Item>
         <Item />
         <Item>View.PageFirst</Item>
         <Item>View.PagePrevious</Item>
@@ -1968,7 +1972,7 @@
     <ToolStrip>
       <Name>Shapes</Name>
       <X>3</X>
-      <Y>19</Y>
+      <Y>23</Y>
       <Visible>False</Visible>
       <Location>Top</Location>
       <Items>
@@ -1987,7 +1991,7 @@
     <ToolStrip>
       <Name>toolStripStyles</Name>
       <X>3</X>
-      <Y>19</Y>
+      <Y>23</Y>
       <Visible>False</Visible>
       <Location>Top</Location>
       <Items>
@@ -2000,7 +2004,7 @@
     <ToolStrip>
       <Name>toolStripAnnotation</Name>
       <X>3</X>
-      <Y>19</Y>
+      <Y>23</Y>
       <Visible>False</Visible>
       <Location>Top</Location>
       <Items>
@@ -2013,7 +2017,7 @@
     <ToolStrip>
       <Name>toolStripPanZoom</Name>
       <X>3</X>
-      <Y>19</Y>
+      <Y>23</Y>
       <Visible>False</Visible>
       <Location>Top</Location>
       <Items>
@@ -2029,7 +2033,7 @@
     <ToolStrip>
       <Name>toolStripDocument</Name>
       <X>3</X>
-      <Y>19</Y>
+      <Y>23</Y>
       <Visible>False</Visible>
       <Location>Top</Location>
       <Items>
@@ -2042,7 +2046,7 @@
     <ToolStrip>
       <Name>toolStripFont</Name>
       <X>3</X>
-      <Y>19</Y>
+      <Y>23</Y>
       <Visible>False</Visible>
       <Location>Top</Location>
       <Items>
@@ -2071,7 +2075,7 @@
     <ToolStrip>
       <Name>toolStripControlPoint</Name>
       <X>3</X>
-      <Y>19</Y>
+      <Y>23</Y>
       <Visible>False</Visible>
       <Location>Top</Location>
       <Items>
@@ -2083,7 +2087,7 @@
     <ToolStrip>
       <Name>toolStripRotateDocument</Name>
       <X>3</X>
-      <Y>19</Y>
+      <Y>23</Y>
       <Visible>False</Visible>
       <Location>Top</Location>
       <Items>
@@ -2094,7 +2098,7 @@
     <ToolStrip>
       <Name>toolStripAppearance</Name>
       <X>3</X>
-      <Y>19</Y>
+      <Y>23</Y>
       <Visible>False</Visible>
       <Location>Top</Location>
       <Items>
@@ -2106,7 +2110,7 @@
     <ToolStrip>
       <Name>toolStripEdit</Name>
       <X>3</X>
-      <Y>19</Y>
+      <Y>23</Y>
       <Visible>False</Visible>
       <Location>Top</Location>
       <Items>
@@ -2124,7 +2128,7 @@
     <ToolStrip>
       <Name>toolStripMeasure</Name>
       <X>3</X>
-      <Y>19</Y>
+      <Y>23</Y>
       <Visible>False</Visible>
       <Location>Top</Location>
       <Items>
@@ -2149,7 +2153,7 @@
       <Name>toolStripRedaction</Name>
       <Module>Redaction</Module>
       <X>3</X>
-      <Y>19</Y>
+      <Y>23</Y>
       <Visible>False</Visible>
       <Location>Top</Location>
       <Items>
@@ -2160,7 +2164,7 @@
     <ToolStrip>
       <Name>toolStripOrder</Name>
       <X>3</X>
-      <Y>19</Y>
+      <Y>23</Y>
       <Visible>False</Visible>
       <Location>Top</Location>
       <Items>
@@ -2173,7 +2177,7 @@
     <ToolStrip>
       <Name>toolStripAlignment</Name>
       <X>3</X>
-      <Y>19</Y>
+      <Y>23</Y>
       <Visible>False</Visible>
       <Location>Top</Location>
       <Items>
@@ -2200,7 +2204,7 @@
     <ToolStrip>
       <Name>toolStripAdvancedText</Name>
       <X>3</X>
-      <Y>19</Y>
+      <Y>23</Y>
       <Visible>False</Visible>
       <Location>Top</Location>
       <Items>
@@ -2216,7 +2220,7 @@
     <ToolStrip>
       <Name>toolStripDigitalSignature</Name>
       <X>3</X>
-      <Y>19</Y>
+      <Y>23</Y>
       <Visible>False</Visible>
       <Location>Top</Location>
       <Items>
@@ -2227,7 +2231,7 @@
     <ToolStrip>
       <Name>toolStripFile</Name>
       <X>3</X>
-      <Y>19</Y>
+      <Y>23</Y>
       <Visible>False</Visible>
       <Location>Top</Location>
       <Items>
@@ -2250,7 +2254,7 @@
     <ToolStrip>
       <Name>toolStripDMS</Name>
       <X>3</X>
-      <Y>19</Y>
+      <Y>23</Y>
       <Visible>False</Visible>
       <Location>Top</Location>
       <Items>
@@ -2264,7 +2268,7 @@
     <ToolStrip>
       <Name>toolStripText</Name>
       <X>3</X>
-      <Y>39</Y>
+      <Y>47</Y>
       <Visible>False</Visible>
       <Location>Top</Location>
       <Items>
