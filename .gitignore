@@ -30,6 +30,7 @@ Passafe.kdbx
 .zshrc
 
 # .config folders
+.config/asunder/
 .config/cosmic/
 .config/dconf/
 .config/fish/
