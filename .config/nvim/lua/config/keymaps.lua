@@ -9,14 +9,6 @@ vim.g.maplocalleader = "\\"
 vim.keymap.set("v", "<Tab>", ">gv")         -- Indent selected
 vim.keymap.set("v", "<S-Tab>", "<gv")       -- Un-indent selected
 
--- Remap movement keys
-vim.keymap.set("", "d", "k")                -- Move cursor up
-vim.keymap.set("", "k", "d")                -- Remap "d" functionality
-vim.keymap.set("", "t", "j")                -- Move cursor down
-vim.keymap.set("", "j", "t")                -- Remap "t" functionality
-vim.keymap.set("", "s", "l")                -- Move cursor right
-vim.keymap.set("", "l", "s")                -- Remap "s" functionality
-
 -- Splits
 vim.keymap.set("n", "<C-d>", "<C-w>k")      -- Move to split above
 vim.keymap.set("n", "<C-t>", "<C-w>j")      -- Move to split below
